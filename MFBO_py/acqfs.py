@@ -1,7 +1,7 @@
 from setup_file import *
 from botorch.acquisition.max_value_entropy_search import qMaxValueEntropy
 
-#MES, TVR and single-fidelity EI functions
+#Multi-fidelity MES and single-fidelity EI and MES functions
 #Also code to run optimisation cycle & batch processes
 
 def runMes(model, bounds, fidelity_history, previous_evaluations=None, train_x_past=None):
@@ -231,7 +231,7 @@ def run_entire_cycle(train_x_full,
     return train_x_full, train_obj, cumulative_cost, index_store
 
 
-#not yet modified
+
 def run_entire_cycle_batch(experiments, 
                            domain_input, 
                            initial_sample_size, 
