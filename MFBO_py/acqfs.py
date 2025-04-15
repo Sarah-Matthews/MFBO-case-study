@@ -179,7 +179,7 @@ def optimiseAcquisitionFunction(acq_function, index_store, bounds, candidate_set
     if math.isclose(fidelity, 0.01, rel_tol=1e-5): #lf case -> add noise lf_cost
         
         #output = output + random.gauss(0, )
-        noise = abs(random.gauss(0, 8))
+        noise = abs(random.gauss(0, 12))
         output = max(0, output - noise) #cannot be lower than zero
 
     
