@@ -10,14 +10,6 @@ import pandas as pd
 N_INIT = 5
 ALLOCATED_BUDGET = 40
 
-#kinda working 0.1, 8 var
-#fileName = 'SampleSpaces/20250404-165239.csv'
-#dict_filename = 'SearchDictionaries/20250402-112039'
-
-#quite promising - 0.01 cost & 50 runs, subtracting gauss noise
-#fileName = 'SampleSpaces/20250404-193456.csv'
-#dict_filename = 'SearchDictionaries/20250404-201715'
-
 fileName = 'SampleSpaces/20250405-214710.csv'
 dict_filename = 'SearchDictionaries/20250405-191631'
 
